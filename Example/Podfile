@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'payworks_Example' do
+  pod 'payworks', :path => '../'
+
+  target 'payworks_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
