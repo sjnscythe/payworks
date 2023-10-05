@@ -1,0 +1,16 @@
+PODS:
+  - payworks (0.1.0)
+
+DEPENDENCIES:
+  - payworks (from `../`)
+
+EXTERNAL SOURCES:
+  payworks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  payworks: ac1cb3e52bf33273a4e5c3337d7739e9d69c6b79
+
+PODFILE CHECKSUM: 4b380194a1d1926ae65504fcb9beffd96f420aeb
+
+COCOAPODS: 1.12.1

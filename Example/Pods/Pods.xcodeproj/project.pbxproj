@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109505FE8A88757E23614B4D372790AB /* payworks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6A8D1A2B16E4866EBCD2BCAABDE961 /* payworks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3D2495066A6FB03580023E95BB3641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		41D063434DD6C14C86B29447AC057830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		46AAFDEB1229710AB701CF4367FCD6B6 /* Pods-payworks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3792B355A097DF96FED717C62851BD /* Pods-payworks_Example-dummy.m */; };
+		578678C6A58E56B26CC927D9BD5C4F5E /* Pods-payworks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7C510BFFE6882594FE55B1924111E7 /* Pods-payworks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BC73072D416616E82BBBF119CC7D4A /* Pods-payworks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC37D98C1B0BB20CCEF1EAAF45F686A /* Pods-payworks_Tests-dummy.m */; };
+		7897C90C22014D6E532AD1634AD1C097 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1767D1259BEB0BF40E87EDB1E3B43E3 /* ReplaceMe.swift */; };
+		98CABF410109A40105D496499A9CA025 /* payworks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9568C16D4F2F4854231FEEBB128BFCC /* payworks-dummy.m */; };
+		D230254417B8CD314B92B19123342A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D70B3F225837E11AC32A67CF89EC1F57 /* Pods-payworks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AAEA9588701007CF5963C1217746BA /* Pods-payworks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3663B4A3783C9C9716C7A88DA188EC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 404838C0C93C569423683F1A4045FD5F;
+			remoteInfo = "Pods-payworks_Example";
+		};
+		B62C35903E8E7C2426115BDE13D5439B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF97BA7091D54061DD1A31D8636E69F1;
+			remoteInfo = payworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056E7483CA8E0E4F8E1ABEED3AB69599 /* payworks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = payworks; path = payworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6E7BC6ADDB69B89DD371ECB80FD162 /* Pods-payworks_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-payworks_Example-Info.plist"; sourceTree = "<group>"; };
+		101F4D9AE744AF6732599F8C3712E68A /* payworks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = payworks.release.xcconfig; sourceTree = "<group>"; };
+		14A03701785A6B3DDAB67F703E744E1A /* payworks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "payworks-Info.plist"; sourceTree = "<group>"; };
+		14E68E05AD357F77DFE86B596ADADC1E /* Pods-payworks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-payworks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24BC73C106585428A3B282B3C2285894 /* Pods-payworks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-payworks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		25AAEA9588701007CF5963C1217746BA /* Pods-payworks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-payworks_Example-umbrella.h"; sourceTree = "<group>"; };
+		2AB7116861B13238C44129B4BDBD948C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4109267257CEBBA54F264981A6DFDD84 /* Pods-payworks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-payworks_Example.modulemap"; sourceTree = "<group>"; };
+		4E3792B355A097DF96FED717C62851BD /* Pods-payworks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-payworks_Example-dummy.m"; sourceTree = "<group>"; };
+		52BAAD9FF10C9F2D2E38777DF139B35E /* payworks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = payworks.modulemap; sourceTree = "<group>"; };
+		572249EB98113411329597DB2B52C01E /* Pods-payworks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-payworks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D0C31751F5B4AC9647FF97A3EBDDA59 /* Pods-payworks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-payworks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D7C510BFFE6882594FE55B1924111E7 /* Pods-payworks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-payworks_Tests-umbrella.h"; sourceTree = "<group>"; };
+		623F32AB94D325BA7D78389F013EC693 /* payworks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = payworks.debug.xcconfig; sourceTree = "<group>"; };
+		635BBEC32D2D32630F93FDB0C0A3EB45 /* Pods-payworks_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-payworks_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7339B0A3DB6EA74942DEE23610A32735 /* payworks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = payworks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		793711A6BC6099038237CDFFFA42EF9F /* Pods-payworks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-payworks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		99842360F8A01A9675F169013953196B /* payworks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "payworks-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15FAA1109B16C872219540006C2E404 /* Pods-payworks_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-payworks_Tests"; path = Pods_payworks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1767D1259BEB0BF40E87EDB1E3B43E3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = payworks/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ABC37D98C1B0BB20CCEF1EAAF45F686A /* Pods-payworks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-payworks_Tests-dummy.m"; sourceTree = "<group>"; };
+		AEE8DD62579CC92B9AB3A0F3345EA690 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C584EB01861FD5ABB6B0497A44CDC6FA /* Pods-payworks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-payworks_Tests.modulemap"; sourceTree = "<group>"; };
+		C8C6B6B5F463028589AEC8B86E8693A2 /* Pods-payworks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-payworks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB1B48FCB092E79CB00B62BC367C4DCE /* Pods-payworks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-payworks_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E255E6F3C0681927CB6CACEE518584F9 /* Pods-payworks_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-payworks_Example"; path = Pods_payworks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05E724B7A36F56926D86BBC28E7725E /* Pods-payworks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-payworks_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F9568C16D4F2F4854231FEEBB128BFCC /* payworks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "payworks-dummy.m"; sourceTree = "<group>"; };
+		FE6A8D1A2B16E4866EBCD2BCAABDE961 /* payworks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "payworks-umbrella.h"; sourceTree = "<group>"; };
+		FFC9A95E2199CD28683A85FFBF772A65 /* Pods-payworks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-payworks_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C09FCAB135CCC623DD54CC16D28369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D063434DD6C14C86B29447AC057830 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E262763C148B01191227766EF7F690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3D2495066A6FB03580023E95BB3641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB321BCC2293A85315645300053C1252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D230254417B8CD314B92B19123342A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078F470FAD7E8FE8019F2F5A5590F1C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D21824A7A1F694D8E33A677E245038BA /* payworks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0A5BB93E37306E02810EAC32553618A2 /* Pods-payworks_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4109267257CEBBA54F264981A6DFDD84 /* Pods-payworks_Example.modulemap */,
+				572249EB98113411329597DB2B52C01E /* Pods-payworks_Example-acknowledgements.markdown */,
+				C8C6B6B5F463028589AEC8B86E8693A2 /* Pods-payworks_Example-acknowledgements.plist */,
+				4E3792B355A097DF96FED717C62851BD /* Pods-payworks_Example-dummy.m */,
+				DB1B48FCB092E79CB00B62BC367C4DCE /* Pods-payworks_Example-frameworks.sh */,
+				0E6E7BC6ADDB69B89DD371ECB80FD162 /* Pods-payworks_Example-Info.plist */,
+				25AAEA9588701007CF5963C1217746BA /* Pods-payworks_Example-umbrella.h */,
+				FFC9A95E2199CD28683A85FFBF772A65 /* Pods-payworks_Example.debug.xcconfig */,
+				F05E724B7A36F56926D86BBC28E7725E /* Pods-payworks_Example.release.xcconfig */,
+			);
+			name = "Pods-payworks_Example";
+			path = "Target Support Files/Pods-payworks_Example";
+			sourceTree = "<group>";
+		};
+		1D420ABBC33A29D1FE653B189409EBBA /* Pods-payworks_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C584EB01861FD5ABB6B0497A44CDC6FA /* Pods-payworks_Tests.modulemap */,
+				5D0C31751F5B4AC9647FF97A3EBDDA59 /* Pods-payworks_Tests-acknowledgements.markdown */,
+				793711A6BC6099038237CDFFFA42EF9F /* Pods-payworks_Tests-acknowledgements.plist */,
+				ABC37D98C1B0BB20CCEF1EAAF45F686A /* Pods-payworks_Tests-dummy.m */,
+				635BBEC32D2D32630F93FDB0C0A3EB45 /* Pods-payworks_Tests-Info.plist */,
+				5D7C510BFFE6882594FE55B1924111E7 /* Pods-payworks_Tests-umbrella.h */,
+				14E68E05AD357F77DFE86B596ADADC1E /* Pods-payworks_Tests.debug.xcconfig */,
+				24BC73C106585428A3B282B3C2285894 /* Pods-payworks_Tests.release.xcconfig */,
+			);
+			name = "Pods-payworks_Tests";
+			path = "Target Support Files/Pods-payworks_Tests";
+			sourceTree = "<group>";
+		};
+		42071307AB5848007F6ECD731AEB268B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5BB93E37306E02810EAC32553618A2 /* Pods-payworks_Example */,
+				1D420ABBC33A29D1FE653B189409EBBA /* Pods-payworks_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		85BF06152E1F493B9AC6310EFE2F17A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BAAD9FF10C9F2D2E38777DF139B35E /* payworks.modulemap */,
+				F9568C16D4F2F4854231FEEBB128BFCC /* payworks-dummy.m */,
+				14A03701785A6B3DDAB67F703E744E1A /* payworks-Info.plist */,
+				99842360F8A01A9675F169013953196B /* payworks-prefix.pch */,
+				FE6A8D1A2B16E4866EBCD2BCAABDE961 /* payworks-umbrella.h */,
+				623F32AB94D325BA7D78389F013EC693 /* payworks.debug.xcconfig */,
+				101F4D9AE744AF6732599F8C3712E68A /* payworks.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/payworks";
+			sourceTree = "<group>";
+		};
+		B7860DFF1550A7B245F51AB7A4B73062 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8DD62579CC92B9AB3A0F3345EA690 /* LICENSE */,
+				7339B0A3DB6EA74942DEE23610A32735 /* payworks.podspec */,
+				2AB7116861B13238C44129B4BDBD948C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				078F470FAD7E8FE8019F2F5A5590F1C1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D54F66525E540A1567772683E60C3EF7 /* Products */,
+				42071307AB5848007F6ECD731AEB268B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D21824A7A1F694D8E33A677E245038BA /* payworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1767D1259BEB0BF40E87EDB1E3B43E3 /* ReplaceMe.swift */,
+				B7860DFF1550A7B245F51AB7A4B73062 /* Pod */,
+				85BF06152E1F493B9AC6310EFE2F17A7 /* Support Files */,
+			);
+			name = payworks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D54F66525E540A1567772683E60C3EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056E7483CA8E0E4F8E1ABEED3AB69599 /* payworks */,
+				E255E6F3C0681927CB6CACEE518584F9 /* Pods-payworks_Example */,
+				A15FAA1109B16C872219540006C2E404 /* Pods-payworks_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38C2C0B28321E12802C28272A55915FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578678C6A58E56B26CC927D9BD5C4F5E /* Pods-payworks_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D988BCD51BC722AB367B6E313309E688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109505FE8A88757E23614B4D372790AB /* payworks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F599DEDECED577A73A65A6ED560576DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70B3F225837E11AC32A67CF89EC1F57 /* Pods-payworks_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		404838C0C93C569423683F1A4045FD5F /* Pods-payworks_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28DC06239C2DCCF207158BEC71E1271 /* Build configuration list for PBXNativeTarget "Pods-payworks_Example" */;
+			buildPhases = (
+				F599DEDECED577A73A65A6ED560576DE /* Headers */,
+				D79E7F1E868AABD7CCCFAA7F123131B5 /* Sources */,
+				93C09FCAB135CCC623DD54CC16D28369 /* Frameworks */,
+				371BA389FC89A5E88929EA6112E3570C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4FF45049D60E277BE58130526918E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-payworks_Example";
+			productName = Pods_payworks_Example;
+			productReference = E255E6F3C0681927CB6CACEE518584F9 /* Pods-payworks_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3BEF5D96E3910C6357EE9A77A262CBD /* Pods-payworks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0F71425F82123A466149BBA00C27C6 /* Build configuration list for PBXNativeTarget "Pods-payworks_Tests" */;
+			buildPhases = (
+				38C2C0B28321E12802C28272A55915FE /* Headers */,
+				D9E55F304FD4EF3417DBAE59195CF621 /* Sources */,
+				A6E262763C148B01191227766EF7F690 /* Frameworks */,
+				1AC72540CA2C0869A6121D367822C62B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED5EACBCC48852A6324B9C989C55FCA /* PBXTargetDependency */,
+			);
+			name = "Pods-payworks_Tests";
+			productName = Pods_payworks_Tests;
+			productReference = A15FAA1109B16C872219540006C2E404 /* Pods-payworks_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF97BA7091D54061DD1A31D8636E69F1 /* payworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CCF613687304A5F57119A8BE822340 /* Build configuration list for PBXNativeTarget "payworks" */;
+			buildPhases = (
+				D988BCD51BC722AB367B6E313309E688 /* Headers */,
+				106439D0415EEB1B90A74928F6FC3A18 /* Sources */,
+				FB321BCC2293A85315645300053C1252 /* Frameworks */,
+				10D45304AB53AD2E917E0545E18D5673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = payworks;
+			productName = payworks;
+			productReference = 056E7483CA8E0E4F8E1ABEED3AB69599 /* payworks */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D54F66525E540A1567772683E60C3EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF97BA7091D54061DD1A31D8636E69F1 /* payworks */,
+				404838C0C93C569423683F1A4045FD5F /* Pods-payworks_Example */,
+				C3BEF5D96E3910C6357EE9A77A262CBD /* Pods-payworks_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D45304AB53AD2E917E0545E18D5673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC72540CA2C0869A6121D367822C62B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371BA389FC89A5E88929EA6112E3570C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106439D0415EEB1B90A74928F6FC3A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABF410109A40105D496499A9CA025 /* payworks-dummy.m in Sources */,
+				7897C90C22014D6E532AD1634AD1C097 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E7F1E868AABD7CCCFAA7F123131B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AAFDEB1229710AB701CF4367FCD6B6 /* Pods-payworks_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E55F304FD4EF3417DBAE59195CF621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BC73072D416616E82BBBF119CC7D4A /* Pods-payworks_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF4FF45049D60E277BE58130526918E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = payworks;
+			target = FF97BA7091D54061DD1A31D8636E69F1 /* payworks */;
+			targetProxy = B62C35903E8E7C2426115BDE13D5439B /* PBXContainerItemProxy */;
+		};
+		FED5EACBCC48852A6324B9C989C55FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-payworks_Example";
+			target = 404838C0C93C569423683F1A4045FD5F /* Pods-payworks_Example */;
+			targetProxy = 3663B4A3783C9C9716C7A88DA188EC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0274C1BBD3504064D12626ED78A0F245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623F32AB94D325BA7D78389F013EC693 /* payworks.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/payworks/payworks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/payworks/payworks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/payworks/payworks.modulemap";
+				PRODUCT_MODULE_NAME = payworks;
+				PRODUCT_NAME = payworks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18D3CD16F5FF25B86F72C95B538BE8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05E724B7A36F56926D86BBC28E7725E /* Pods-payworks_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-payworks_Example/Pods-payworks_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-payworks_Example/Pods-payworks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B4E449C217B2F9C8190F03CF57B0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E68E05AD357F77DFE86B596ADADC1E /* Pods-payworks_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-payworks_Tests/Pods-payworks_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-payworks_Tests/Pods-payworks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EA6B0E961AA8325F1ABE8520103B3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BC73C106585428A3B282B3C2285894 /* Pods-payworks_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-payworks_Tests/Pods-payworks_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-payworks_Tests/Pods-payworks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3C11E80606656C3DB89673ED30127F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101F4D9AE744AF6732599F8C3712E68A /* payworks.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/payworks/payworks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/payworks/payworks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/payworks/payworks.modulemap";
+				PRODUCT_MODULE_NAME = payworks;
+				PRODUCT_NAME = payworks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF3BB997464F06968D2B565CFA96E023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC9A95E2199CD28683A85FFBF772A65 /* Pods-payworks_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-payworks_Example/Pods-payworks_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-payworks_Example/Pods-payworks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0F71425F82123A466149BBA00C27C6 /* Build configuration list for PBXNativeTarget "Pods-payworks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4E449C217B2F9C8190F03CF57B0D75 /* Debug */,
+				3EA6B0E961AA8325F1ABE8520103B3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CCF613687304A5F57119A8BE822340 /* Build configuration list for PBXNativeTarget "payworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0274C1BBD3504064D12626ED78A0F245 /* Debug */,
+				A3C11E80606656C3DB89673ED30127F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28DC06239C2DCCF207158BEC71E1271 /* Build configuration list for PBXNativeTarget "Pods-payworks_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3BB997464F06968D2B565CFA96E023 /* Debug */,
+				18D3CD16F5FF25B86F72C95B538BE8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
